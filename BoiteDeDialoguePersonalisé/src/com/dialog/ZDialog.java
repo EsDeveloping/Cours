@@ -9,13 +9,12 @@ public class ZDialog extends JDialog {
 		// On appelle le constructeur de JDialog correspondant
 		super(parent, title, modal);
 		// On spécifie une taille
-		this.setSize(200,80);
+		this.setSize(550,270);
 		// La location
 		this.setLocationRelativeTo(null);
 		// La boite ne devra pas être redimentionnable
 		this.setResizable(false);
-		// On affiche
-		this.setVisible(true);
+		
 	}
 	
 	
