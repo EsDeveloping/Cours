@@ -1,6 +1,8 @@
 package com.moteur;
 
-public abstract class Moteur {
+import java.io.Serializable;
+
+public abstract class Moteur implements Serializable{
 	// Variable
 	protected TypeMoteur type;
 	protected String cylindre;

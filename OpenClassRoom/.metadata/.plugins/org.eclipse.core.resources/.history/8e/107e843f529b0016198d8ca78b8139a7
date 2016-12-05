@@ -1,0 +1,25 @@
+package com.enumeration;
+
+/*
+ *  Cours sur les enumerations
+ *  
+ *  From: https://openclassrooms.com/courses/apprenez-a-programmer-en-java/les-enumerations-1
+ */
+
+
+public enum Langage {
+	JAVA ("Langage JAVA"),
+	C ("Langage C"),
+	CPlus ("Langage C++"),
+	PHP ("Langage PHP");
+	
+	private String name = "";
+	
+	Langage(String name){
+		this.name = name;
+	}
+	
+	public String toString(){
+		return name;
+	}
+}

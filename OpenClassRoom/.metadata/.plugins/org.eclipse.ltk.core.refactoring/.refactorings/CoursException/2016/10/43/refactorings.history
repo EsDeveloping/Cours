@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.enumeration&apos; to &apos;CoursEnumeration/src&apos;&#x0A;- Original project: &apos;CoursException&apos;&#x0A;- Destination element: &apos;CoursEnumeration/src&apos;&#x0A;- Original element: &apos;CoursException/src/com.enumeration&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=CoursEnumeration/src" element1="/src&lt;com.enumeration" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1477467613709" version="1.0"/>
+</session>

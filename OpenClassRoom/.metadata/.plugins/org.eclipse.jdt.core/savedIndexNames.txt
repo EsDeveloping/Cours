@@ -1,0 +1,4 @@
+INDEX VERSION 1.129+/home/emerick/Programmation/java/Cours/OpenClassRoom/.metadata/.plugins/org.eclipse.jdt.core
+2660740287.index
+3913326290.index
+53287048.index

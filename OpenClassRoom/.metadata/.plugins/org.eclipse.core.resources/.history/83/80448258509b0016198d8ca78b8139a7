@@ -1,0 +1,12 @@
+package com.enumeration;
+
+public class Main {
+
+	public static void main(String[] args) {
+		for(Langage langage : Langage.values()){
+			System.out.println(langage + "\n");
+		}
+
+	}
+
+}

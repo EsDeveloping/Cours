@@ -7,7 +7,7 @@ public class GPS implements Option{
 	
 	// methode getPrix
 	@Override
-	public float getPrix() {
+	public double getPrix() {
 		return prix;
 	}
 	

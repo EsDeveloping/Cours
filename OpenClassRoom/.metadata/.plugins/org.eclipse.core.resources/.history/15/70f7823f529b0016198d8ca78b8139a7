@@ -1,0 +1,14 @@
+package com.enumeration;
+
+/*
+ * Exemple permétant d'afficher les valeur d'une enumeration
+ */
+
+
+public class Main {
+	public static void main(String[] args) {
+		for(Langage langage : Langage.values()){
+			System.out.println(langage);
+		}
+	}
+}
