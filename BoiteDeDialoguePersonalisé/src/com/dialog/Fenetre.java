@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 public class Fenetre extends JFrame {
 	private JButton bouton = new JButton("Appel à la ZDialog");
@@ -20,6 +21,9 @@ public class Fenetre extends JFrame {
 		bouton.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				ZDialog zd = new ZDialog(null, "Coucou les ZérOs", false);
+				ZDialogInfo zInfo = zd.showZDialog();
+				JOptionPane jop = new JOptionPane();
+				jop.showMessageDialog(null, zInfo.toString(), "Information personnage", JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
 		

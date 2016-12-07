@@ -14,9 +14,9 @@ public class ZDialogInfo {
 	
 	public String toString(){
 		String str = "";
-		if(this.nom != null && this.sexe != null && this.age != null && this.cheveux != null && this.taille != null){
-			str = "Description de l'objet InfoZDialog";
-			str += " Nom : " + this.nom + "\n"
+		if(this.nom != null && this.nom.compareTo("") != 0 && this.sexe != null && this.age != null && this.cheveux != null && this.taille != null){
+			str = "Description de l'objet InfoZDialog\n";
+			str += "Nom : " + this.nom + "\n"
 					+ "Sexe :" + this.sexe + "\n"
 							+ "Age : " + this.age + "\n"
 									+ "Cheveux : " + this.cheveux + "\n"
